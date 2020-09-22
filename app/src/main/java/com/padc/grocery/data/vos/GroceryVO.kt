@@ -3,8 +3,8 @@ package com.padc.grocery.data.vos
 import com.google.firebase.database.IgnoreExtraProperties
 
 @IgnoreExtraProperties
-class GroceryVO(
-    val name: String? = "",
-    val description: String? = "",
-    val amount: Int? = 0
+data class GroceryVO(
+    var name: String? = "",
+    var description: String? = "",
+    var amount: Int? = 0
 )
